@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/redstonia/parent/waving_a",
+    "textures": {
+        "skin": "redstonia/jesse"
+    }
+}

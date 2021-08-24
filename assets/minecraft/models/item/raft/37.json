@@ -1,0 +1,175 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"parent": "item/raft/size",
+	"textures": {
+		"0": "block/jungle_log",
+		"1": "block/jungle_small"
+	},
+	"elements": [
+		{
+			"name": "LogB3",
+			"from": [15, 0, 12],
+			"to": [16, 1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, -7, 12]},
+			"faces": {
+				"north": {"uv": [10, 0, 6, 4], "texture": "#1"},
+				"east": {"uv": [5, 16, 9, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13, 0, 9, 4], "texture": "#1"},
+				"west": {"uv": [3, 16, 7, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2, 16, 6, 0], "texture": "#0"},
+				"down": {"uv": [4, 16, 8, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "LogA6",
+			"from": [15, 0, 8],
+			"to": [16, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [3, 0, 7, 4], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [2, 0, 6, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 0, 7, 16], "texture": "#0"},
+				"down": {"uv": [1, 0, 5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "LogA7",
+			"from": [15, 0, -4],
+			"to": [16, 1, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 4]},
+			"faces": {
+				"north": {"uv": [3, 0, 7, 4], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [2, 0, 6, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 0, 7, 16], "texture": "#0"},
+				"down": {"uv": [1, 0, 5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "LogB5",
+			"from": [15, 0, 4],
+			"to": [16, 1, 8],
+			"faces": {
+				"north": {"uv": [3, 4, 7, 0], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [0, 16, 4, 0], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 4, 4, 0], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [2, 16, 6, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 0, 3, 16], "texture": "#0"},
+				"down": {"uv": [5, 0, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "LogA5",
+			"from": [15, 0, 0],
+			"to": [16, 1, 4],
+			"faces": {
+				"north": {"uv": [3, 0, 7, 4], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [2, 0, 6, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 0, 7, 16], "texture": "#0"},
+				"down": {"uv": [1, 0, 5, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "LogGA1",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB1",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC1",
+			"origin": [8, 8, 8],
+			"children": [0]
+		},
+		{
+			"name": "LogGA2",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB2",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC2",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA3",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB3",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC3",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA4",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB4",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC4",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA5",
+			"origin": [8, 8, 8],
+			"children": [1, 2, 3, 4]
+		},
+		{
+			"name": "RopeA",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "RopeB",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "Mast",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "ClothPlank",
+			"origin": [8, 10, 8],
+			"children": []
+		},
+		{
+			"name": "ClothL",
+			"origin": [5, 6.53033, 1.53033],
+			"children": []
+		},
+		{
+			"name": "ClothR",
+			"origin": [5, 6.53033, 1.53033],
+			"children": []
+		}
+	]
+}

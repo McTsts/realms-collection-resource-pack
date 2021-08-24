@@ -1,0 +1,5 @@
+{
+"jevin.airhorn": { "sounds": [ "jevin/airhorn" ] },
+"item.armor.equip_generic": { "sounds": [],  "replace": "true" }
+
+}

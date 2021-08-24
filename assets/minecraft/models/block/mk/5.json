@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mk/grass_top",
+        "side": "mk/grass_side"
+    }
+}

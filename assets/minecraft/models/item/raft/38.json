@@ -1,0 +1,101 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"parent": "item/raft/size",
+	"groups": [
+		{
+			"name": "LogGA1",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB1",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC1",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA2",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB2",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC2",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA3",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB3",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC3",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA4",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGB4",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGC4",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "LogGA5",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "RopeA",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "RopeB",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "Mast",
+			"origin": [8, 8, 8],
+			"children": []
+		},
+		{
+			"name": "ClothPlank",
+			"origin": [8, 10, 8],
+			"children": []
+		},
+		{
+			"name": "ClothL",
+			"origin": [5, 6.53033, 1.53033],
+			"children": []
+		},
+		{
+			"name": "ClothR",
+			"origin": [5, 6.53033, 1.53033],
+			"children": []
+		}
+	]
+}

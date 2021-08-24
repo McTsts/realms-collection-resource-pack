@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "":   [
+		{ "model": "block/custom/stonebrick/stonebrick01", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick02", "weight": 10 },
+		{ "model": "block/custom/stonebrick/stonebrick03", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick04", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick05", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick06", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick07", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick08", "weight": 1 },
+		{ "model": "block/custom/stonebrick/stonebrick09", "weight": 1 }
+		]
+    }
+}

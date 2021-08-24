@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/redstonia/parent/walking_a",
+    "textures": {
+        "skin": "redstonia/ellegaard"
+    }
+}

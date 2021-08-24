@@ -1,0 +1,27 @@
+{
+"__comment": "Designed by Mcmakistein with BDcraft Cubik PRO 0.90 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "bog/hermes_letter"
+},
+"elements": [ 
+{
+    "from": [ 0, -15.5, 31 ],
+    "to": [ 14.5, -5.5, 31.5 ],
+    "faces": {
+        "down":  { "uv": [ 12.5, 9, 12, 8.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 10.5, 10.5, 11.5, 11 ], "texture": "#texture" },
+        "north": { "uv": [ 1.5, 4, 14.5, 12.5 ], "texture": "#texture" },
+        "south": { "uv": [ 3, 9, 4.5, 10 ], "texture": "#texture" },
+        "west":  { "uv": [ 3, 9.5, 4, 11 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.5, 9, 11.5, 10 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "head": {
+        "rotation": [ 86, 4, 9 ],
+        "translation": [ 0, -20, -15 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}

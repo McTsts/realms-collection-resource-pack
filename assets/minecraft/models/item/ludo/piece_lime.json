@@ -1,0 +1,6 @@
+{
+	"parent": "item/ludo/piece",
+	"textures": {
+        "all": "block/lime_wool"
+    }
+}

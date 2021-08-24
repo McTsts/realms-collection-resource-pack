@@ -1,0 +1,10 @@
+{
+	"credit": "Made by McTsts",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 20],
+			"scale": [3, 3, 3]
+		}
+	}
+}

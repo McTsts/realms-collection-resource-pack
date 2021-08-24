@@ -1,0 +1,26 @@
+{
+	"parent": "item/generated",
+    "textures": {
+        "layer0": "item/control/pointer"
+    },
+	"display": {
+        "thirdperson_righthand": {
+            "rotation": [ -90, 0, 0 ],
+            "translation": [ 0, -1.99, -2 ],
+			"scale": [1.8, 1.8, 4]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90, 180, 0 ],
+            "translation": [ 0, -1.99, -2 ],
+			"scale": [1.8, 1.8, 4]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ -7.7, 3, -20 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ -7.7, 3, -20 ]
+        }
+    }
+}

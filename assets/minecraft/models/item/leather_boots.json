@@ -1,0 +1,6 @@
+{
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "other/hexagon"},
+    {"predicate": {"custom_model_data": 2},"model": "other/helmet"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "theme_default/figurines/peasant_stationary"},
+    {"predicate": {"custom_model_data": 2},"model": "theme_default/figurines/peasant_animated"},
+    {"predicate": {"custom_model_data": 3},"model": "theme_default/figurines/spearman_stationary"},
+    {"predicate": {"custom_model_data": 4},"model": "theme_default/figurines/spearman_animated"},
+    {"predicate": {"custom_model_data": 5},"model": "theme_default/figurines/knight_stationary"},
+    {"predicate": {"custom_model_data": 6},"model": "theme_default/figurines/knight_animated"},
+    {"predicate": {"custom_model_data": 7},"model": "theme_default/figurines/baron_stationary"},
+    {"predicate": {"custom_model_data": 8},"model": "theme_default/figurines/baron_animated"},
+    {"predicate": {"custom_model_data": 9},"model": "theme_default/structures/castle"},
+    {"predicate": {"custom_model_data": 10},"model": "theme_default/structures/capital"},
+    {"predicate": {"custom_model_data": 11},"model": "theme_default/trees/palm"},
+    {"predicate": {"custom_model_data": 12},"model": "theme_default/trees/spruce"}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+"__comment": "Designed by Cdfdman with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "texture": "item/bgl/video_board"
+},
+"elements": [ 
+{
+    "from": [ 4, 0, 6 ],
+    "to": [ 12, 2, 14 ],
+    "rotation": { "origin": [ 4, 0, 6 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 16, 8.5, 13.5, 6.5 ], "rotation": 180, "texture": "#texture" },
+        "up":    { "uv": [ 13.5, 6.5, 15, 9 ], "rotation": 180, "texture": "#texture" },
+        "north": { "uv": [ 13, 7, 15.5, 9 ], "texture": "#texture" },
+        "south": { "uv": [ 12.5, 6.5, 15, 8.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 12.5, 6.5, 16, 8.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 12.5, 7, 15.5, 9 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 2, 2, 11 ],
+    "to": [ 6, 11, 12.5 ],
+    "rotation": { "origin": [ 2, 2, 11 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 15.5, 9, 13.5, 7.5 ], "rotation": 180, "texture": "#texture" },
+        "up":    { "uv": [ 13, 7.5, 15.5, 8 ], "rotation": 180, "texture": "#texture" },
+        "north": { "uv": [ 13.5, 6.5, 16, 9 ], "texture": "#texture" },
+        "south": { "uv": [ 13, 7.5, 16, 9 ], "texture": "#texture" },
+        "west":  { "uv": [ 13, 6.5, 15, 9 ], "texture": "#texture" },
+        "east":  { "uv": [ 13, 6.5, 15, 9.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ -2, 3.5, 6.5 ],
+    "to": [ 14, 16, 7.5 ],
+    "rotation": { "origin": [ -2, 3.5, 6.5 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 16, 8.5, 13, 7 ], "rotation": 180, "texture": "#texture" },
+        "up":    { "uv": [ 13, 7, 15, 8.5 ], "rotation": 180, "texture": "#texture" },
+        "north": { "uv": [ 0, 5, 6.5, 15 ], "rotation": 90, "texture": "#texture" },
+        "south": { "uv": [ 13, 6.5, 16, 9 ], "texture": "#texture" },
+        "west":  { "uv": [ 13, 6.5, 15.5, 9 ], "texture": "#texture" },
+        "east":  { "uv": [ 13, 7, 15, 9 ], "texture": "#texture" }
+    }
+}
+],"display": {
+		"head": {
+			"translation": [0, -34.75, 0],
+			"scale": [1.6, 1, 1.6]
+		}
+	}
+}
