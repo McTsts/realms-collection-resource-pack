@@ -64,6 +64,23 @@ void pblur() {
 }
 
 
+void wobble() {
+	vec4 PrevTexel = texture2D(PrevSampler, texCoord);
+
+    float xOffset = sin(texCoord.y * Frequency.x + 3.1415926535 * 2.0 * PrevTexel.g) * WobbleAmount.x;
+    float yOffset = cos(texCoord.x * Frequency.y + 3.1415926535 * 2.0 * PrevTexel.b) * WobbleAmount.y;
+    vec2 offset = vec2(xOffset, yOffset);
+    vec4 center = texture2D(FinalSampler, texCoord + offset);
+    vec4 left = texture2D(FinalSampler, texCoord - vec2(oneTexel.x, 0.0) + offset);
+    vec4 right = texture2D(FinalSampler, texCoord + vec2(oneTexel.x, 0.0) + offset);
+    vec4 up = texture2D(FinalSampler, texCoord - vec2(0.0, oneTexel.y) + offset);
+    vec4 down = texture2D(FinalSampler, texCoord + vec2(0.0, oneTexel.y) + offset);
+    float total = clamp(left.a + right.a + up.a + down.a, 0.0, 1.0);
+    vec3 outColor = center.rgb * center.a + left.rgb * left.a + right.rgb * right.a + up.rgb * up.a + down.rgb * down.a;
+    gl_FragColor = vec4(max(outColor * 0.2, vec3(0.8,0.8,0.8)), total);
+}
+
+
 /*
 // Main Function
 */
